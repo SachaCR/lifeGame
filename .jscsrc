@@ -1,0 +1,113 @@
+{
+  "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch",
+    "finally"
+  ],
+  "requireSpaceAfterKeywords": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try"
+  ],
+  "disallowSpaceAfterKeywords": [
+    "default"
+  ],
+  "requireParenthesesAroundIIFE": true,
+
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+
+  "disallowSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+
+  "disallowMultipleVarDecl": true,
+
+  "disallowEmptyBlocks": true,
+
+  "disallowSpacesInsideArrayBrackets": true,
+
+  "requireSpacesInsideObjectBrackets": "all",
+
+  "disallowSpaceAfterObjectKeys": true,
+
+  "requireCommaBeforeLineBreak": true,
+
+  "requireOperatorBeforeLineBreak": [
+    "?",
+    "+",
+    "-",
+    "/",
+    "*",
+    "=",
+    "===",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<=",
+    "&&",
+    "||",
+    ":"
+  ],
+  "disallowSpaceAfterBinaryOperators": ["!"],
+  "disallowSpaceBeforeBinaryOperators": [","],
+  "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
+  "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+  "requireSpaceBeforeBinaryOperators": [
+    "+",
+    "-",
+    "?",
+    "/",
+    "*",
+    "=",
+    "===",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<=",
+    "&&",
+    "||"
+  ],
+  "requireSpaceAfterBinaryOperators": [
+    "?",
+    "+",
+    "-",
+    "/",
+    "*",
+    "=",
+    "===",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<=",
+    "&&",
+    "||",
+    ":",
+    ","
+  ],
+  "requireFunctionDeclarations": true,
+  "disallowMultipleLineBreaks": true,
+  "validateLineBreaks": "LF",
+  "validateQuoteMarks": "'",
+  "disallowMixedSpacesAndTabs": true,
+  "disallowTrailingWhitespace": true,
+  "requireKeywordsOnNewLine": [
+  ],
+  "requireLineFeedAtFileEnd": true,
+  "requireCapitalizedConstructors": true,
+  "requireDotNotation": true,
+  "excludeFiles": []
+}
+

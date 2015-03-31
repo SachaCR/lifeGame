@@ -1,0 +1,28 @@
+{
+  "name": "lifeGame",
+  "version": "0.0.1",
+  "description": "Conway game of life",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha test/**/*.js || true"
+  },
+  "keywords": [
+    "game",
+    "of",
+    "life",
+    "conway"
+  ],
+  "author": "SachaCR",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "istanbul": "^0.3.11",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "validator": "^3.36.0"
+  }
+}
