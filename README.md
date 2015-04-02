@@ -1,5 +1,5 @@
 ### Conway's game of life
-
+[![Coverage Status](https://coveralls.io/repos/boennemann/badges/badge.png)](https://coveralls.io/r/boennemann/badges)
 ## Methods :
 
 ```js
