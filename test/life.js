@@ -13,7 +13,7 @@ describe('validateCoord', function() {
     expect(result).to.equal(1);
   });
   it('should throw an error', function() {
-    try{
+    try {
       var result = validateCoord(5, 5, 5, 5);
       expect(result).to.not.exist;
     }
@@ -24,7 +24,7 @@ describe('validateCoord', function() {
   });
 
   it('should throw an error', function() {
-    try{
+    try {
       var result = validateCoord(-1, 2, 3, 3);
       expect(result).to.not.exist;
     }
@@ -112,11 +112,10 @@ describe('findChangingCells', function() {
   });
 });
 
-
 describe('Life', function() {
 
   it('should return a life object initialized with 0', function() {
-    var life = new Life(4,4);
+    var life = new Life(4, 4);
     expect(life.height).to.equal(4);
 
     for (var i = 0; i < life.height; i++) {
@@ -129,7 +128,7 @@ describe('Life', function() {
   });
 
   it('should return an asymetric grid', function() {
-    var life = new Life(4,3);
+    var life = new Life(4, 3);
     expect(life.height).to.equal(4);
 
     for (var i = 0; i < life.height; i++) {
@@ -190,20 +189,20 @@ describe('Life', function() {
   describe('setAliveCell', function() {
     it('should set cell [1,1] to alive', function() {
       var life = new Life(3, 3);
-      life.setAliveCell(1,1);
+      life.setAliveCell(1, 1);
       expect(life.getCellState(1, 1)).to.be.equal(1);
     });
 
     it('should set cell [1,1] to alive', function() {
       var life = new Life(3, 3);
-      life.setAliveCell('1',1);
+      life.setAliveCell('1', 1);
       expect(life.getCellState(1, 1)).to.equal(1);
     });
 
     it('should throw an exception', function() {
       try {
         var life = new Life(3, 3);
-        life.setAliveCell('a',1);
+        life.setAliveCell('a', 1);
       } catch(e) {
         expect(e).to.be.an.instanceof(Error);
         expect(e.message).to.be.equal('x and y must be integer');
@@ -241,7 +240,7 @@ describe('Life', function() {
     it('should throw an exception', function() {
       try {
         var life = new Life(3, 3);
-        life.setDeadCell('a',1);
+        life.setDeadCell('a', 1);
       } catch(e) {
         expect(e).to.be.an.instanceof(Error);
         expect(e.message).to.be.equal('x and y must be integer');
